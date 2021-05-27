@@ -1,0 +1,23 @@
+Architecture:
+  Gateways: 
+    Nginx: to maintain ingress and egress traffic to the microservices and API gateway sollutions with Traffic security
+  Authentication:
+    Custom Authentication: custom email and OpenID Authentication and Authorization using token solution
+    Keycloak: Use Keycloak to provide Authentication and Authorization solution with Sigle Sign-On feature (SSO)
+  Database:
+    PostgreSQL:
+    Cassandra: 
+    Mongodb: 
+  Realtime Database:
+    Redis:
+    Memchache:
+    # To persist the data in the in-memory databases
+    Persistance:
+      cassandra:
+      MongoDB:
+  Storage:
+    Cassandra😂: I know Database for Storage!, Walmart uses Cassandra as File Storage to provide Millions of Photos
+    Hadoop File System: But using this may have more configuration into it like caching images and more
+  Cloud Scripts:
+    Language: Nodejs or Java if we go for spring boot
+  
