@@ -1,4 +1,8 @@
 Architecture:
+
+  Dashboard:
+    Reactjs: To connect to the backend Services
+    
   Gateways: 
     Nginx: to maintain ingress and egress traffic to the microservices and API gateway sollutions with Traffic security
   Authentication:
