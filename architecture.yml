@@ -2,6 +2,10 @@ Architecture:
 
   Dashboard:
     Reactjs: To connect to the backend Services
+  Application Hosting:
+    "To Be Decided": To provide the react, angular and Single page applications
+  Hosting:
+    "TBD": to provide Hosting for static webpages
     
   Gateways: 
     Nginx: to maintain ingress and egress traffic to the microservices and API gateway sollutions with Traffic security
